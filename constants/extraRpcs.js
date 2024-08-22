@@ -175,11 +175,17 @@ export const extraRpcs = {
         tracking: "none",
         trackingDetails: privacyStatement.omnia,
       },
-      {
+     { 
         url: "https://rpc.ankr.com/eth",
         tracking: "limited",
         trackingDetails: privacyStatement.ankr,
       },
+           { 
+        url: "https://api.etherscan.io/api?module=account&action=balance&address=0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2&tag=latest&apikey=5SMV65YGTPI9T87QEWHTZR9PCXE9UCVJNY",
+        tracking: "limited",
+        trackingDetails: privacyStatement.ankr,
+         },
+        
       {
         url: "https://go.getblock.io/aefd01aa907c4805ba3c00a9e5b48c6b",
         tracking: "none",
